@@ -1,0 +1,15 @@
+/* TABLET  */
+
+@media (max-width:768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+
+    }
+
+}
+
+
+/* MOBILE  */
