@@ -45,6 +45,7 @@
     .lessons .col {
         width: 100%;
     }
+
     .steps {
         width: 480px;
     }
@@ -60,4 +61,14 @@
         transform: translate(-100px);
 
     }
+
+
+    .why-us .container {
+        background-color: #222222;
+        margin-top: -48px;
+        padding-top: 48px;
+    }
+
+
+
 }
