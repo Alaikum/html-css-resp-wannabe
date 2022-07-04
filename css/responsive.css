@@ -30,7 +30,7 @@
 @media (max-width:480px) {
     .container {
         max-width: 480px;
-        margin: 0;
+        margin: 0 auto;
         padding: 0 20px;
 
 
@@ -39,12 +39,15 @@
     .row {
         flex-direction: column;
         align-items: center;
+        gap: 80px;
     }
 
     .lessons .col {
         width: 100%;
     }
-
+    .steps {
+        width: 480px;
+    }
 
     .steps .col {
         flex-basis: 0;
@@ -52,5 +55,9 @@
         width: 100%;
     }
 
+    .col-left img {
+        max-width: 350px;
+        transform: translate(-100px);
 
+    }
 }
