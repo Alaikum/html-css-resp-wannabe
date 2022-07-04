@@ -25,3 +25,32 @@
 
 
 /* MOBILE  */
+
+
+@media (max-width:480px) {
+    .container {
+        max-width: 480px;
+        margin: 0;
+        padding: 0 20px;
+
+
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+
+    .steps .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+
+}
